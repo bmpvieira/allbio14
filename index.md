@@ -2,7 +2,7 @@
 
 <!-- We will need a Flash presentation from you which should be a maximum of 5 minutes with a brief introduction and synopsis of your career plus your work/involvement in the areas this workshop is covering and a maximum of 4 slides - this needs to be with us by latest 8 September (apologies for the short notice). -->
 
-<small style="float: right;"><a href="//bmpvieira.com/allbio2014" target="_blank">bmpvieira.com/allbio2014</a></small>
+<small style="float: right;"><a href="//bmpvieira.com/allbio14" target="_blank">bmpvieira.com/allbio14</a></small>
 
 ### Who
 
