@@ -1,8 +1,6 @@
-Pairwise Sequentially Markovian Coalescent Model
-================================================
-Talk given in the Evolution Group Lab Jolly at the Queen Mary, University of London.
-
-Slides theme from [timruffles/you-probably-dont-want-an-object](//github.com/timruffles/you-probably-dont-want-an-object)
+TGAC - AllBio: Open Science & Reproducibility Best Practice Workshop
+====================================================================
+Talk for workshop in Norwich, UK.
 
 License
 -------
