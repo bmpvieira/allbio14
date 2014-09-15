@@ -20,72 +20,387 @@
 <h2 id="tgac-allbio-2014">TGAC - AllBio 2014</h2>
 <!-- We will need a Flash presentation from you which should be a maximum of 5 minutes with a brief introduction and synopsis of your career plus your work/involvement in the areas this workshop is covering and a maximum of 4 slides - this needs to be with us by latest 8 September (apologies for the short notice). -->
 
-<p><small style="float: right;"><a href="//bmpvieira.com/allbio2014" target="_blank">bmpvieira.com/allbio2014</a></small></p>
-<h3 id="who">Who</h3>
+<p><small style="float: right;"><a href="//bmpvieira.com/allbio14" target="_blank">bmpvieira.com/allbio14</a></small>
+<br></p>
 <p><img style="width: 30%; float: right; padding-right: 1em;" alt="bmpvieira" src="img/bmpvieira.png" /></p>
-<p>Bruno Vieira | <i class="fa fa-twitter"></i> <a href="//twitter.com/bmpvieira" target="_blank">@bmpvieira</a></p>
-<p>Phd Student @ <img style="width: 25%; float: right; padding-right: 1em;" alt="QMUL" src="img/Queen_Mary,_University_of_London_logo.svg" /></p>
+<p><a href="http://bmpvieira.com">Bruno Vieira</a> | <i class="fa fa-twitter"></i> <a href="//twitter.com/bmpvieira" target="_blank">@bmpvieira</a></p>
+<p>Phd Student @ <a href="http://www.qmul.ac.uk" target="_blank"><img style="width: 25%; float: right; padding-right: 1em;" alt="QMUL" src="img/Queen_Mary,_University_of_London_logo.svg" /></a></p>
 <p>Bioinformatics and Population Genomics</p>
-<p><br>
-<span style="font-size:0.8em;">
+<p><span style="font-size:0.8em;">
 Supervisor:<br>Yannick Wurm | <i class="fa fa-twitter"></i>  <a href="//twitter.com/yannick__" target="_blank">@yannick__</a>
 </span><br>
-<span style="position:absolute; top: 89%; font-size:.35em;">
+<small>
+Before:
+<br>
+<a href="http://www.ciencias.ulisboa.pt" target="_blank"><img style="max-height: 7%;  float: left;" alt="FCUL" src="img/fcul.png" /></a>
+<a href="http://cobig2.com" target="_blank"><img style="max-height: 7%; float: left;" alt="CoBiG2" src="img/cobig2.png" /></a>
+<a href="http://eseb2013.com" target="_blank"><img style="max-height: 7%; float: left;" alt="eseb2013" src="img/eseb2013.png" /></a>
+<a href="https://geekli.st" target="_blank"><img style="max-height: 7%; float: left;" alt="geeklist" src="img/geeklist.png" />
+<a href="http://www.bbsrc.ac.uk" target="_blank"><img style="max-height: 7%; float: left;" alt="bbsrc" src="img/bbsrc.png" /></p>
+<p></small></p>
+<div style="position:absolute; top: 82%; font-size:.35em;">
 © 2014 <a href="http://bmpvieira.com" target="_blank">Bruno Vieira</a> <a href="http://creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank">CC-BY 4.0</a>
-</span></p>
+</div>
+
+
 </section>
 
 <section>
-<h3 id="before">Before</h3>
-<p>2004-2009
-<img style="max-height: 15%;  float: right;" alt="FCUL" src="img/fcul.png" /></p>
-<p><small>
-Master in Human Biology and Environment<br>Licentiate in Cell Biology and Biotechnology
-</small></p>
-<p>2009-2013
-<img style="max-height: 13%; float: right;" alt="CoBiG2" src="img/cobig2.png" /></p>
-<p><small>Bioinformatician and SysAdmin</small></p>
-<p>2012-2013 <img style="width: 32%; float: right;" alt="eseb2013" src="img/eseb2013.png" />
-<small>
-Full Stack Web Developer - Built everything with<br>Node.js, Express.js, Bootstrap, MongoDB and Redis
-</small></p>
-<p>2013 <img style="width: 30%; float: right;" alt="geeklist" src="img/geeklist.png" />
-<small>
-Full Stack Web Developer - Worked on integration<br>with LinkedIn API
-</small></p>
-<p>&nbsp;</p>
+<h3 id="some-problems-i-faced-during-my-research-">Some problems I faced during my research:</h3>
+<ul>
+<li><p>Difficulty getting relevant descriptions and datasets from NCBI API using bio* libs  </p>
+<!-- **Solution**: Write a more user friendly and Streamable library/CLI tool -->
+</li>
+<li><p>For web projects, needed to implement the same functionality on browser and server</p>
+<!-- **Solution**: JavaScript everywhere -->
+</li>
+<li><p>Difficulty writing scalable, reproducible and complex bioinformatic pipelines</p>
+<!-- **Solution**: Streams everywhere -->
+
+</li>
+</ul>
 </section>
 
 <section>
-<h3 id="what">What</h3>
 <!-- <div style="float: left; max-width:10%"> -->
 
 <p><strong><a href="http://bionode.io">Bionode.io</a></strong> - <span style="font-size: .8em;"><em>Modular and universal bioinformatics</em></span>
 <img style="width: 20%;float: right; padding-right: 1em;" alt="bionode" src="img/bionode-logo.svg" /></p>
 <p><span style="font-size: .7em; line-height:10%;">Pipeable UNIX command line tools and JavaScript / Node.js APIs for bioinformatic analysis workflows on the server and browser.<br><span style="font-size:.7em;">Collaborates with <a href="http://biojs.net/">BioJS</a> - <em>Represent biological data on the web</em></span></span></p>
-<p><br>
-<img style="width: 17%;float: left; padding-right: .5em;" alt="dat" src="img/dat.png" />
+<div style="padding-bottom:2em;"></div>
+
+<p><img style="width: 17%;float: left; padding-right: .5em;" alt="dat" src="img/dat.png" />
 <strong><a href="http://dat-data.com">Dat</a> </strong> - <span style="font-size: .8em;"><em>Build data pipelines</em></span></p>
 <p><span style="font-size: .7em; line-height:10%;">Provides a streaming interface between every file format and data storage backend. <em>&quot;git for data&quot;</em></span></p>
-<p><small><a href="http://dat-data.com">dat-data.com</a></small></p>
+<p><small><a href="http://dat-data.com">dat-data.com</a>
+| <i class="fa fa-twitter"></i> <a href="https://twitter.com/@maxogden">@maxogden</a>
+| <i class="fa fa-twitter"></i> <a href="https://twitter.com/@mafintosh">@mafintosh</a>
+</small></p>
 </section>
 
 <section>
-<h3 id="why-bionode-why-node-js-">Why Bionode / Why Node.js?</h3>
+<p><span style="font-size:3.0em;">
+<a href="http://bionode.io">bionode.io</a>
+</span><a href="http://try.bionode.io">(online shell)</a></p>
+<p><strong>Examples</strong></p>
+<p>BASH</p>
+<pre>
+ bionode-ncbi urls assembly Solenopsis invicta | grep genomic.fna
+
+ <a href="http://ftp.ncbi.nlm.nih.gov/genomes/all/GCA_000188075.1_Si_gnG/GCA_000188075.1_Si_gnG_genomic.fna.gz" >http://ftp.ncbi.nlm.nih.gov/genomes/all/GCA_000188075.1_Si_gnG/
+ GCA_000188075.1_Si_gnG_genomic.fna.gz</a>
+</pre>
+
+<pre>
+ bionode-ncbi download sra arthropoda | bionode-sra
+</pre>
+
+<pre>
+ bionode-ncbi download gff bacteria
+</pre>
+
+<p>JavaScript</p>
+<pre><code class="lang-javascript">var ncbi = require(&#39;bionode-ncbi&#39;)
+ ncbi.urls(&#39;assembly&#39;, &#39;Solenopsis invicta&#39;), gotData)
+ function gotData(urls) {
+   var genome = urls[0].genomic.fna
+   download(genome)
+ })
+</code></pre>
+<pre><code class="lang-bash">ncbi.search(&#39;biosample&#39;, &#39;human&#39;).pipe(filter).pipe(analyse)
+</code></pre>
+</section>
+
+<section>
+<p><strong> Difficulty getting relevant description and datasets from NCBI API using bio* libs </strong></p>
+<p>Python example</p>
+<pre><code class="lang-python">import xml.etree.ElementTree as ET
+ from Bio import Entrez
+ Entrez.email = &quot;mail@bmpvieira.com&quot;
+ esearch_handle = Entrez.esearch(db=&quot;assembly&quot;, term=&quot;Achromyrmex&quot;)
+ esearch_record = Entrez.read(esearch_handle)
+ for id in esearch_record[&#39;IdList&#39;]:
+   esummary_handle = Entrez.esummary(db=&quot;assembly&quot;, id=id)
+   esummary_record = Entrez.read(esummary_handle)
+   documentSummarySet = esummary_record[&#39;DocumentSummarySet&#39;]
+   document = documentSummarySet[&#39;DocumentSummary&#39;][0]
+   metadata_XML = document[&#39;Meta&#39;].encode(&#39;utf-8&#39;)
+   metadata = ET.fromstring(&#39;&lt;root&gt;&#39; + metadata_XML + &#39;&lt;/root&gt;&#39;)
+   for entry in Metadata[1]:
+     print entry.text
+</code></pre>
+<p><a href="ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA_000188075.1_Si_gnG"><pre>ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA_000188075.1_Si_gnG</pre></a></p>
+<p>Solution: <a href="http://github.com/bionode/bionode-ncbi">bionode-ncbi</a></p>
+</section>
+
+<section>
+<p><strong> Need to reimplement the same code on browser and server. </strong></p>
+<p>Solution: JavaScript everywhere</p>
 <ul>
-<li>Reusable, small and tested modules</li>
+<li>Afra</li>
+<li>SequenceServer</li>
+<li>GeneValidator</li>
+<li>BioJS</li>
+</ul>
+<p><br>
+Biodalliance is converting parsers to Bionode</p>
+</section>
+
+<section>
+<p><strong>Difficulty writing scalable, reproducible and complex bioinformatic pipelines.</strong></p>
+<p>Solution: Node.js Streams everywhere</p>
+<pre>
+ var ncbi = require('bionode-ncbi')
+ var tool = require('tool-stream')
+ var through = require('through2')
+ var fork1 = through.obj()
+ var fork2 = through.obj()
+
+ ncbi
+   .search('sra', 'Solenopsis invicta')
+   .pipe(fork1)
+   .pipe(dat.reads)
+
+ fork1
+   .pipe(tool.extractProperty('expxml.Biosample.id'))
+   .pipe(ncbi.search('biosample'))
+   .pipe(dat.samples)
+
+ fork1
+   .pipe(tool.extractProperty('uid'))
+   .pipe(ncbi.link('sra', 'pubmed'))
+   .pipe(ncbi.search('pubmed'))
+   .pipe(dat.papers)
+</pre>
+
+</section>
+
+<section>
+<h3 id="benefit-from-other-js-projects">Benefit from other JS projects</h3>
+<div style="float: left; padding-right:2em; width:20%;">
+<a href="http://dat-data.com" target="_blank">Dat</a>
+<img style="width:100%;" alt="dat" src="img/dat.png" />
+</div>
+
+<div style="float: left; padding-right:2em; width:20%;">
+<a href="http://biojs.net" target="_blank">BioJS</a>
+<img style="width:100%;" alt="biojs" src="img/biojs.png" />
+</div>
+
+<div style="float: left; padding-right:2em; width:20%;">
+<a href="http://noflojs.org" target="_blank">NoFlo</a>
+<img style="width:100%;" alt="noflo" src="img/noflo.jpg" />
+</div>
+
+</section>
+
+<section>
+<section data-background="img/noflo.png"></section>
+
+</section>
+
+<section>
+<!--
+<img style="float: left; padding-right:.5em; width:100%;" alt="streams" src="img/streams2.gif" />
+
+
+--- -->
+
+<section data-background="img/dat-table.png"></section>
+
+</section>
+
+<section>
+<h3 id="reusable-small-and-tested-modules">Reusable, small and tested modules</h3>
+<p><img src="img/badges.png" alt="badges"></p>
+</section>
+
+<section>
+<p>Users and Contributors:</p>
+<ul>
+<li><a href="htpp://dat-data.com">Dat</a></li>
+<li><a href="http://biodalliance.org">Biodalliance</a></li>
+<li><a href="http://biojs.net">BioJS</a></li>
+<li><a href="http://yeolab.ucsd.edu/yeolab/Home.html">Yeo Lab</a> (UC San Diego)<ul>
+<li>Michael Lovci</li>
+<li>Olga Botvinnik</li>
+</ul>
+</li>
+<li><a href="http://afra.sbcs.qmul.ac.uk">Afra</a></li>
+<li><a href="github.com/monicadragan/GeneValidator">GeneValidator</a>)</li>
+</ul>
+<p>Soon?</p>
+<ul>
+<li><a href="http://dnadigest.org">DNADigest</a></li>
+<li>Erik Garrison | <i class="fa fa-twitter"></i> <a href="https://twitter.com/erikgarrison">erikgarrison</a></li>
+</ul>
+<!-- <br>
+** Get all FASTQ for a specific accession **
+```bash
+bionode-ncbi download sra ERP003956 | bionode-sra
+``` -->
+
+</section>
+
+<section>
+<!-- <section data-background="img/bionode-graph.png"></section>
+
+---
+
+<section data-background="img/dat-graph.png"></section>
+
+--- -->
+
+<!-- ### CommonJS pattern
+
+```javascript
+// awesome-lib/index.js
+module.exports = function() {
+  return console.log("Small modules everywhere")
+}
+
+// myscript.js
+var awesome = require('awesome-lib')
+awesome()
+``` -->
+
+
+<!-- ### Command Line Interface
+
+```bash
+
+# Subset a fasta file to a particular sequence
+
+cat sequences.fasta
+| bionode-fasta
+| grep "contig123"
+| bionode-fasta --write > contig123.fasta
+
+
+# Find the reads datasets used for the Solenopsis invicta assembly
+
+bionode-ncbi search assembly Solenopsis invicta |
+tool-stream extractProperty uid                 |
+bionode-ncbi link assembly bioproject           |
+tool-stream extractProperty destUID             |
+bionode-ncbi link bioproject sra                |
+tool-stream extractProperty destUID             |
+bionode-ncbi urls sra                           |
+dat import --json
+
+```
+
+--- -->
+
+<!-- ### Project status: available
+
+* Data access:
+  * ncbi
+* Parsing
+  * fasta
+  * bbi
+* Wrangling
+  * seq
+* Wrappers
+  * sra
+  * sam
+  * bwa
+
+---
+
+### Project status: down the line
+
+<div style="font-size: .8em; line-height: 1.2em;">
+<ul>
+<li> Data access:
+  <ul>
+  <li> ebi </li>
+  <li> ensembl </li>
+  </ul>
+<li> Parsing </li>
+  <ul>
+  <li> fastq </li>
+  <li> sam </li>
+  <li> vcf </li>
+  <li> gff </li>
+  </ul>
+<li> Wrangling </li>
+  <ul>
+  <li> quality control/stats </li>
+  </ul>
+<li> Wrappers </li>
+  <ul>
+  <li> blast </li>
+  <li> diginorm </li>
+  </ul>
+</ul>
+</div>
+
+--- -->
+
+<!-- ### Try
+
+
+
+### Install
+
+#### Node
+
+```bash
+# OSX
+brew install node
+```
+
+```bash
+# Ubuntu
+sudo apt-get install nodejs npm
+```
+
+#### Bionode
+
+```bash
+npm install bionode
+```
+
+--- -->
+
+<h3 id="thanks-">Thanks!</h3>
+<p>Acknowledgements:</p>
+<p><i class="fa fa-twitter"></i> <a href="http://twitter.com/yannick__">@yannick__</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/maxogden">@maxogden</a><br><i class="fa fa-twitter"></i> <a href="https://twitter.com/mafintosh">@mafintosh</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/alanmrice">@alanmrice</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/dasmoth">@dasmoth</a></p>
+</section>
+
+<section>
+<h3 id="why-node-js-javascript">Why Node.js / JavaScript</h3>
+<ul>
+<li><a href="http://nodejs.org/api/stream.html">Streams</a> applies well to Bioinformatics</li>
+<li>Easy to write <a href="https://github.com/bionode/bionode-ncbi#command-line-examples">CLI wrappers</a> for Streams</li>
+<li><a href="https://github.com/bionode/bionode-ncbi#bionode-ncbi">Reusable, small and tested modules</a></li>
 <li>Same language everywhere (JavaScript)</li>
-<li>JavaScript is <a href="https://blog.mozilla.org/blog/2014/03/12/mozilla-and-epic-preview-unreal-engine-4-running-in-firefox/">fast enough</a></li>
 <li>Package Manager that works (<a href="http://npmjs.org">NPM</a>)</li>
 <li>Huge number modules (<a href="http://www.modulecounts.com">93327, 199/day</a>)</li>
 <li>Use other JS projects (<a href="http://dat-data.com">Dat</a>, <a href="http://biojs.net">BioJS</a>, <a href="http://noflojs.org">NoFlo</a>)</li>
-<li><a href="http://nodejs.org/api/stream.html">Streams</a> applies well to Bioinformatics</li>
-<li>Easy to write CLI wrappers for Streams</li>
-<li>Possible to write Desktop GUI apps in JS</li>
+<li>Possible to write <a href="https://github.com/atom/atom-shell#atom-shell-">Desktop GUI apps in JS</a></li>
 </ul>
 </section>
 
 <section>
+<h3 id="module-counts">Module counts</h3>
+<p><img style="width:80%;" alt="modules" src="img/modules.png" /></p>
+</section>
+
+<section>
+<p>Package Manager that works</p>
+<p><img style="width: 25%;" alt="NPM" src="img/npm.png"/></p>
+<pre><code class="lang-bash">
+npm install bionode
+npm install bionode -g
+npm test
+npm start
+npm run test-browser
+npm run build-docs
+npm init
+npm publish
+</code></pre>
 
 </section>
 
@@ -107,7 +422,7 @@ Full Stack Web Developer - Worked on integration<br>with LinkedIn API
     progress: true,
 
     // Display a subtle timer bar (time is in minutes)
-    timeRemaining: 10,
+    timeRemaining: 5,
 
     // Push each slide change to the browser history
     history: true,
@@ -165,4 +480,3 @@ Full Stack Web Developer - Worked on integration<br>with LinkedIn API
           });
     </script>
 </body>
-
