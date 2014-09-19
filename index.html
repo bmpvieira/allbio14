@@ -2,7 +2,8 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>TGAC - AllBio 2014</title>
+  <title>AllBio / EU CodeFest</title>
+
   <meta name="author" content="Bruno Vieira">
 
   <link rel="stylesheet" href="vendors/revealjs/css/reveal.css">
@@ -15,9 +16,12 @@
 
   <div class="reveal">
     <div class="slides">
-      
+
 <section data-state=front>
-<h2 id="tgac-allbio-2014">TGAC - AllBio 2014</h2>
+<h2>
+<a href="http://www.tgac.ac.uk/allbio-open-science-reproducibility-best-practice-workshop/">AllBio</a> / <a href="http://www.ebi.ac.uk/training/course/eu-codefest">EU CodeFest</a>
+</h2>
+
 <!-- We will need a Flash presentation from you which should be a maximum of 5 minutes with a brief introduction and synopsis of your career plus your work/involvement in the areas this workshop is covering and a maximum of 4 slides - this needs to be with us by latest 8 September (apologies for the short notice). -->
 
 <p><small style="float: right;"><a href="//bmpvieira.com/allbio14" target="_blank">bmpvieira.com/allbio14</a></small>
@@ -137,18 +141,18 @@ Before:
 <p><strong> Need to reimplement the same code on browser and server. </strong></p>
 <p>Solution: JavaScript everywhere</p>
 <ul>
-<li>Afra</li>
-<li>SequenceServer</li>
-<li>GeneValidator</li>
-<li>BioJS</li>
+<li><a href="https://github.com/yeban/afra">Afra</a></li>
+<li><a href="http://www.sequenceserver.com">SequenceServer</a></li>
+<li><a href="https://github.com/monicadragan/GeneValidator">GeneValidator</a></li>
+<li><a href="http://biojs.net">BioJS</a></li>
 </ul>
 <p><br>
-Biodalliance is converting parsers to Bionode</p>
+<a href="http://biodalliance.org">Biodalliance</a> is converting parsers to Bionode</p>
 </section>
 
 <section>
 <p><strong>Difficulty writing scalable, reproducible and complex bioinformatic pipelines.</strong></p>
-<p>Solution: Node.js Streams everywhere</p>
+<p>Solution: Node.js <a href="http://ejohn.org/blog/node-js-stream-playground/">Streams</a> everywhere</p>
 <pre>
  var ncbi = require('bionode-ncbi')
  var tool = require('tool-stream')
@@ -216,7 +220,7 @@ Biodalliance is converting parsers to Bionode</p>
 </section>
 
 <section>
-<p>Users and Contributors:</p>
+<p>Some users and Contributors:</p>
 <ul>
 <li><a href="htpp://dat-data.com">Dat</a></li>
 <li><a href="http://biodalliance.org">Biodalliance</a></li>
@@ -227,9 +231,9 @@ Biodalliance is converting parsers to Bionode</p>
 </ul>
 </li>
 <li><a href="http://afra.sbcs.qmul.ac.uk">Afra</a></li>
-<li><a href="github.com/monicadragan/GeneValidator">GeneValidator</a>)</li>
+<li><a href="github.com/monicadragan/GeneValidator">GeneValidator</a></li>
 </ul>
-<p>Soon?</p>
+<p>Soon:</p>
 <ul>
 <li><a href="http://dnadigest.org">DNADigest</a></li>
 <li>Erik Garrison | <i class="fa fa-twitter"></i> <a href="https://twitter.com/erikgarrison">erikgarrison</a></li>
@@ -366,7 +370,7 @@ npm install bionode
 
 <h3 id="thanks-">Thanks!</h3>
 <p>Acknowledgements:</p>
-<p><i class="fa fa-twitter"></i> <a href="http://twitter.com/yannick__">@yannick__</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/maxogden">@maxogden</a><br><i class="fa fa-twitter"></i> <a href="https://twitter.com/mafintosh">@mafintosh</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/alanmrice">@alanmrice</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/dasmoth">@dasmoth</a></p>
+<p><i class="fa fa-twitter"></i> <a href="http://twitter.com/yannick__">@yannick__</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/maxogden">@maxogden</a><br><i class="fa fa-twitter"></i> <a href="https://twitter.com/mafintosh">@mafintosh</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/alanmrice">@alanmrice</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/dasmoth">@dasmoth</a><br><i class="fa fa-twitter"></i> <a href="http://twitter.com/biodevops">@biodevops</a></p>
 </section>
 
 <section>
@@ -401,6 +405,11 @@ npm run build-docs
 npm init
 npm publish
 </code></pre>
+<p>Not only for JavaScript, C/C++ too:</p>
+<ul>
+<li><a href="https://www.npmjs.org/package/dotc">Node.js style C/C++ modules</a></li>
+<li><a href="http://www.slideshare.net/philippfehre/nodejs-and-native-code-extensions-by-example">Native C/C++ running in Google V8</a></li>
+</ul>
 
 </section>
 
@@ -422,7 +431,7 @@ npm publish
     progress: true,
 
     // Display a subtle timer bar (time is in minutes)
-    timeRemaining: 5,
+    timeRemaining: 10,
 
     // Push each slide change to the browser history
     history: true,

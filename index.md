@@ -1,4 +1,6 @@
-## TGAC - AllBio 2014
+<h2>
+[AllBio](http://www.tgac.ac.uk/allbio-open-science-reproducibility-best-practice-workshop/) / [EU CodeFest](http://www.ebi.ac.uk/training/course/eu-codefest)
+</h2>
 
 <!-- We will need a Flash presentation from you which should be a maximum of 5 minutes with a brief introduction and synopsis of your career plus your work/involvement in the areas this workshop is covering and a maximum of 4 slides - this needs to be with us by latest 8 September (apologies for the short notice). -->
 
@@ -137,19 +139,19 @@ Solution: <a href="http://github.com/bionode/bionode-ncbi">bionode-ncbi</a>
 
 Solution: JavaScript everywhere
 
-* Afra
-* SequenceServer
-* GeneValidator
-* BioJS
+* [Afra](https://github.com/yeban/afra)
+* [SequenceServer](http://www.sequenceserver.com)
+* [GeneValidator](https://github.com/monicadragan/GeneValidator)
+* [BioJS](http://biojs.net)
 
 <br>
-Biodalliance is converting parsers to Bionode
+[Biodalliance](http://biodalliance.org) is converting parsers to Bionode
 
 ---
 
 **Difficulty writing scalable, reproducible and complex bioinformatic pipelines.**
 
-Solution: Node.js Streams everywhere
+Solution: Node.js [Streams](http://ejohn.org/blog/node-js-stream-playground/) everywhere
 
 <pre>
  var ncbi = require('bionode-ncbi')
@@ -216,7 +218,7 @@ Solution: Node.js Streams everywhere
 
 ---
 
-Users and Contributors:
+Some users and Contributors:
 * [Dat](htpp://dat-data.com)
 * [Biodalliance](http://biodalliance.org)
 * [BioJS](http://biojs.net)
@@ -224,7 +226,7 @@ Users and Contributors:
   * Michael Lovci
   * Olga Botvinnik
 * [Afra](http://afra.sbcs.qmul.ac.uk)
-* [GeneValidator](github.com/monicadragan/GeneValidator))
+* [GeneValidator](github.com/monicadragan/GeneValidator)
 
 Soon?
 * [DNADigest](http://dnadigest.org)
@@ -368,7 +370,8 @@ Acknowledgements:
 <i class="fa fa-twitter"></i> [@maxogden](http://twitter.com/maxogden)  
 <i class="fa fa-twitter"></i> [@mafintosh](https://twitter.com/mafintosh)  
 <i class="fa fa-twitter"></i> [@alanmrice](http://twitter.com/alanmrice)  
-<i class="fa fa-twitter"></i> [@dasmoth](http://twitter.com/dasmoth)
+<i class="fa fa-twitter"></i> [@dasmoth](http://twitter.com/dasmoth)  
+<i class="fa fa-twitter"></i> [@biodevops](http://twitter.com/biodevops)
 
 ---
 
@@ -407,3 +410,7 @@ npm init
 npm publish
 
 ```
+
+Not only for JavaScript, C/C++ too:
+* [Node.js style C/C++ modules](https://www.npmjs.org/package/dotc)
+* [Native C/C++ running in Google V8](http://www.slideshare.net/philippfehre/nodejs-and-native-code-extensions-by-example)
